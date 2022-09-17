@@ -1,0 +1,21 @@
+.suggestion {
+  cursor: pointer;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.suggestion:hover {
+  background-color: grey;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border: 1px solid gray;
+  border-top: 0;
+  overflow: auto;
+}
